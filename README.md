@@ -16,4 +16,5 @@ Projeto feito com front-end em ReactJS, back-end em Node.js + TypeScript e banco
 
 ## Tela inicial da aplicação
 
-![Página inicial](frontend/images/home.png)
+|![Página inicial](frontend/images/home.png)|
+-
