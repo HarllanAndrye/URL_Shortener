@@ -26,10 +26,16 @@ Será criada uma pasta `build` com os arquivos minificados.
 ## Telas da aplicação
 
 ### Home
-![Página inicial](images/home.png)
+<kbd>
+  <img src="images/home.png"/>
+</kbd>
 
 ### Home com a URL gerada
-![Página inicial com URL gerada](images/home_url_shortened.png)
+<kbd>
+  <img src="images/home_url_shortened.png"/>
+</kbd>
 
 ### Estatísticas
-![Estatísticas](images/stats.png)
+<kbd>
+  <img src="images/stats.png"/>
+</kbd>
