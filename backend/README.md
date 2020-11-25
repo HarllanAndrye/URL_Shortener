@@ -15,6 +15,6 @@ Para rodar a aplicação:
 ```
 npm start
 ```
-A aplicação irá rodar em: http://localhost:3000
+A aplicação irá rodar em: `http://localhost:3001`.
 
 As configurações de conexão com o banco de dados estão no arquivo `src/database.ts`.

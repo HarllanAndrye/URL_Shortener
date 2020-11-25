@@ -11,5 +11,5 @@ database.sync(); // Inicializando a conexão com o bando de dados
 console.log('Database running at 3306');
 
 // Comando para rodar (subir) o app
-app.listen(3000); // 3000 é a porta que o app estará "escutando"
-console.log('Server running at 3000');
+app.listen(3001); // 3001 é a porta que o app estará "escutando"
+console.log('Server running at 3001');
