@@ -15,6 +15,7 @@ Um micro-Saas simples para encurtar URL feito durante a Semana Web Full Stack JS
 
 Projeto feito com front-end em ReactJS, back-end em Node.js + TypeScript e banco de dados MySQL.
 
+:open_file_folder: Acesse as pastas frontend e backend para saber como rodar a aplicação.
 
 ## Tela inicial da aplicação
 
