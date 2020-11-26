@@ -25,6 +25,6 @@ Projeto feito com front-end em ReactJS, back-end em Node.js + TypeScript e banco
 
 ## :link: Aplicação em produção
 
-A aplicação foi publicada na [AWS](https://aws.amazon.com/pt/) e a mesma pode ser acessada [aqui](http://www.habs.ga/).
+A aplicação foi publicada na [AWS](https://aws.amazon.com/pt/) e a mesma pode ser acessada :point_right: **[AQUI](http://www.habs.ga/)** :point_left:
 
 Aproveite para encurtar suas URLs :+1:
