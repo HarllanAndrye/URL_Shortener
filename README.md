@@ -23,9 +23,14 @@ Projeto feito com front-end em ReactJS, back-end em Node.js + TypeScript e banco
   <img src="frontend/images/home.png"/>
 </kbd>
 
+<br>
+<br>
+<br>
 
-## :link: Aplicação em produção
+---
 
-A aplicação foi publicada na [AWS](https://aws.amazon.com/pt/) e a mesma pode ser acessada :point_right: **[AQUI](http://www.habs.ga/)** :point_left:
-
-Aproveite para encurtar suas URLs :+1:
+<p align="center">
+  <kbd>
+      <img src="WFS_Champion_.png" width="20%"/>
+  </kbd>
+</p>
