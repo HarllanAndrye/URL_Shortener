@@ -10,7 +10,7 @@ export interface ILinkModel extends Model<Link, ILinkCreationAttributes>, Link {
 // Criando a definição da tabela (entidade)
 const LinkModel = database.define<ILinkModel>('link', {
   id: {
-    type: Sequelize.INTEGER.UNSIGNED, // apenas inteiros positivos
+    type: Sequelize.INTEGER, // apenas inteiros positivos
     primaryKey: true,
     autoIncrement: true,
     allowNull: false
@@ -25,7 +25,7 @@ const LinkModel = database.define<ILinkModel>('link', {
     allowNull: false
   },
   hits: {
-    type: Sequelize.INTEGER.UNSIGNED,
+    type: Sequelize.INTEGER,
     allowNull: false,
     defaultValue: 0
   }

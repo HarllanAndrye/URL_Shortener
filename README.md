@@ -31,6 +31,6 @@ Projeto feito com front-end em ReactJS, back-end em Node.js + TypeScript e banco
 
 <p align="center">
   <kbd>
-      <img src="WFS_Champion_.png"/>
+      <img src="WFS_Champion.png"/>
   </kbd>
 </p>
