@@ -8,12 +8,12 @@
 ![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js)
 ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=typescript)
-![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333333?style=flat&logo=postgresql&logoColor=336791)
 ![AWS](https://img.shields.io/badge/-AWS-333333?style=flat&logo=amazon-aws)
 
-Um micro-Saas simples para encurtar URL feito durante a Semana Web Full Stack JS, com [Luiz Tools](https://www.youtube.com/c/luiztools) e [Daniel Castro](https://www.instagram.com/danielcsrs/).
+Um micro-Saas simples para encurtar URL feito com base no projeto da Semana Web Full Stack JS, com [Luiz Tools](https://www.youtube.com/c/luiztools) e [Daniel Castro](https://www.instagram.com/danielcsrs/).
 
-Projeto feito com front-end em ReactJS, back-end em Node.js + TypeScript e banco de dados MySQL.
+Projeto feito com front-end em ReactJS, back-end em Node.js + TypeScript e banco de dados PostgreSQL.
 
 :open_file_folder: Acesse as pastas frontend e backend para saber como rodar a aplicação.
 
