@@ -31,7 +31,7 @@ async function postLink(req: Request, resp: Response) {
 
     resp.status(201).json(link); // Enviar resposta para o front-end
   } catch (error) {
-    resp.status(503).json(process.env.DATABASE_URL);
+    resp.status(503).json(error);
   }
 }
 
