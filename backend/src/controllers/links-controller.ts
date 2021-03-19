@@ -22,17 +22,13 @@ async function postLink(req: Request, resp: Response) {
   link.code = generateCode();
   link.hits = 0;
 
-  try {
-    const result = await linksRepository.add(link);
+  const result = await linksRepository.add(link);
 
-    if (!result.id) return resp.sendStatus(400);
+  if (!result.id) return resp.sendStatus(400);
 
-    link.id = result.id; // Adicionando o ID criado
+  link.id = result.id; // Adicionando o ID criado
 
-    resp.status(201).json(link); // Enviar resposta para o front-end
-  } catch (err) {
-    //...
-  }
+  resp.status(201).json(link); // Enviar resposta para o front-end
 }
 
 async function getLink(req: Request, resp: Response) {
