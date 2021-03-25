@@ -54,9 +54,10 @@ class HomePage extends React.Component {
         <Header>Encurtador de URL</Header>
         <ContentContainer>
           <Form onSubmit={this.handleSubmit}>
+            <p>Use nosso encurtador de URL para criar um link curto, fácil de memorizar.</p>
             <InputGroup className="mb-3">
               <FormControl
-                placeholder="Digite a URL para encurtar"
+                placeholder="Digite a URL aqui"
                 defaultValue=""
                 onChange={e => this.setState({ url: e.target.value })}
               />
@@ -68,23 +69,23 @@ class HomePage extends React.Component {
             {isLoading ? (
               <Spinner animation="border" />
             ) : (
-                // Se o "shortenerURL" for diferente de vazio
-                shortenerURL && (
-                  <>
-                    <InputGroup className="mb-3">
-                      <FormControl
-                        autoFocus={true}
-                        defaultValue={vars.HOST_APP + shortenerURL}
-                        ref={(input) => this.inputURL = input}
-                      />
-                      <InputGroup.Append>
-                        <Button variant="outline-secondary" onClick={() => this.copyToClipboard()}>Copiar</Button>
-                      </InputGroup.Append>
-                    </InputGroup>
-                    <p>Para acompanhar as estatísticas, acesse {vars.HOST_APP + shortenerURL}/stats</p>
-                  </>
-                )
-              )}
+              // Se o "shortenerURL" for diferente de vazio
+              shortenerURL && (
+                <>
+                  <InputGroup className="mb-3">
+                    <FormControl
+                      autoFocus={true}
+                      defaultValue={vars.HOST_APP + shortenerURL}
+                      ref={(input) => this.inputURL = input}
+                    />
+                    <InputGroup.Append>
+                      <Button variant="outline-secondary" onClick={() => this.copyToClipboard()}>Copiar</Button>
+                    </InputGroup.Append>
+                  </InputGroup>
+                  <p>Para acompanhar as estatísticas, acesse {vars.HOST_APP + shortenerURL}/stats</p>
+                </>
+              )
+            )}
 
             {errorMessage && <Alert variant="danger">{errorMessage}</Alert>}
           </Form>
